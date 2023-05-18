@@ -1,0 +1,34 @@
+main th {
+	padding: 20px;
+}
+
+.modal-body td:last-child {
+	width: 50px;
+}
+
+.modal-body td {
+	padding: 2px 0;
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #ddd;
+}
+
+.pagination a.active {
+	background-color: var(--color-primary);
+	color: white;
+	border: 1px solid var(--color-primary);
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
